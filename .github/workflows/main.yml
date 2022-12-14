@@ -102,6 +102,7 @@ jobs:
         shell: bash
         env:
           DENO_DIR: "./deno"
+          GOOGLE_ANALYTICS_TOKEN: ${{ secrets.GOOGLE_ANALYTICS_TOKEN }}
         run: |
           BUILD=`git rev-parse --short "$GITHUB_SHA"`
           TAQ_VERSION="${TAQ_VERSION/\//-}"

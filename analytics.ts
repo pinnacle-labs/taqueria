@@ -133,7 +133,7 @@ export const inject = (deps: UsageAnalyticsDeps) => {
 				}
 
 				const measurement_id = 'G-8LSQ6J7P0Q';
-				const api_secret = '3aHoMp2USE21ZPmAVTI1Lg';
+				const api_secret = Deno.env.get('GOOGLE_ANALYTICS_TOKEN');
 
 				const currentTime = new Date();
 				const taq_timestamp = currentTime.toDateString() + ', ' + currentTime.toTimeString();
