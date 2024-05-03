@@ -96,7 +96,7 @@ npm run build-all
 
 ## Taqueria Tests
 ### Unit Tests
-Running the unit tests requires deno is installed on your system. Installation instructions can be found [here](https://deno.land/manual@v1.18.2/getting_started/installation)
+Running the unit tests requires deno is installed on your system. Installation instructions can be found [here](https://docs.deno.com/runtime/manual/getting_started/installation)
 
 ### E2E and Integration tests
 If you are running from built sources, start with `npm run build-all`
